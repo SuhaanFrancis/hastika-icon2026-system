@@ -1,0 +1,18 @@
+# Data: the HASTIKA files must not be redistributed
+data/*
+!data/README.md
+*.csv
+
+# Model outputs and checkpoints (large)
+outputs/*
+!outputs/.gitkeep
+*.pt
+*.npy
+*.zip
+
+# Python / notebooks / editors
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.vscode/
